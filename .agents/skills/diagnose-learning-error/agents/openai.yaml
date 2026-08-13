@@ -1,0 +1,6 @@
+interface:
+  display_name: "학습 오류 진단"
+  short_description: "막힌 원인을 개념·절차·전략·표현 문제로 나누어 진단"
+  default_prompt: "Use $diagnose-learning-error to diagnose where and why I am stuck."
+policy:
+  allow_implicit_invocation: false

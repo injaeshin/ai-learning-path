@@ -1,0 +1,6 @@
+interface:
+  display_name: "학습 세션 계획"
+  short_description: "사용 가능한 시간에 맞춰 오늘 학습 범위와 자연스러운 중단 지점을 제안"
+  default_prompt: "Use $learning-session-planner to propose today's learning scope and stopping points."
+policy:
+  allow_implicit_invocation: false

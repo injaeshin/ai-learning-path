@@ -1,0 +1,6 @@
+interface:
+  display_name: "티치백 평가"
+  short_description: "배운 개념을 가르치듯 설명하게 하고 실제 이해 수준을 평가"
+  default_prompt: "Use $teach-back-evaluator to assess how well I can teach this concept."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: "설명 우선 점검"
+  short_description: "학습자의 설명에서 약한 연결과 오개념을 질문으로 정확히 확인"
+  default_prompt: "Use $explain-first-interrogator to examine my explanation before correcting it."
+policy:
+  allow_implicit_invocation: false

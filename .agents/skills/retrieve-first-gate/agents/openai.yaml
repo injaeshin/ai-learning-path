@@ -1,0 +1,6 @@
+interface:
+  display_name: "사전 회상"
+  short_description: "새 설명 전에 현재 기억과 지식 공백을 자료 없이 먼저 확인"
+  default_prompt: "Use $retrieve-first-gate to check what I can recall before explaining."
+policy:
+  allow_implicit_invocation: false

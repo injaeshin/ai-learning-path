@@ -1,0 +1,6 @@
+interface:
+  display_name: "단계별 힌트"
+  short_description: "학습자에게 필요한 최소 수준의 힌트를 단계적으로 제공"
+  default_prompt: "Use $progressive-hint-ladder to give me only the next level of help."
+policy:
+  allow_implicit_invocation: false

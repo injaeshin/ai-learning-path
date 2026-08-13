@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 주장 검증"
+  short_description: "핵심 주장과 실제 출처가 일치하는지 상태를 구분해 검증"
+  default_prompt: "Use $ai-claim-checker to verify these claims against suitable sources."
+policy:
+  allow_implicit_invocation: false

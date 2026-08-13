@@ -1,0 +1,6 @@
+interface:
+  display_name: "개념 전이 확인"
+  short_description: "같은 원리를 유사한 상황과 다른 상황에 적용하도록 확인"
+  default_prompt: "Use $transfer-bridge to test whether this concept transfers to new contexts."
+policy:
+  allow_implicit_invocation: false

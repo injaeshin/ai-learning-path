@@ -1,0 +1,6 @@
+interface:
+  display_name: "무지원 체크포인트"
+  short_description: "힌트 없는 변형 문제를 사용해 독립 수행 능력을 정확히 확인"
+  default_prompt: "Use $unassisted-checkpoint to test me without hints until I submit."
+policy:
+  allow_implicit_invocation: false

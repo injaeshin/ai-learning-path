@@ -1,0 +1,6 @@
+interface:
+  display_name: "학습용 코드 리뷰"
+  short_description: "코드를 고치지 않고 학습 목표와 작성한 설계를 기준으로 검토"
+  default_prompt: "Use $learning-code-review to review my completed code without modifying it."
+policy:
+  allow_implicit_invocation: false

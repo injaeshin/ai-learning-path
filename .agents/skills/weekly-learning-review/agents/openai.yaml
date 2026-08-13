@@ -1,0 +1,6 @@
+interface:
+  display_name: "주간 학습 회고"
+  short_description: "한 주의 이해 증거와 AI 의존도, 다음 누적 복습 계획을 점검"
+  default_prompt: "Use $weekly-learning-review to review this week's evidence and next steps."
+policy:
+  allow_implicit_invocation: false

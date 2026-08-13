@@ -1,0 +1,6 @@
+interface:
+  display_name: "학습 기록 반영"
+  short_description: "사용자가 검토하고 승인한 학습 기록만 지정한 파일에 반영"
+  default_prompt: "Use $learning-record-manager to apply only the learning record I approved."
+policy:
+  allow_implicit_invocation: false
